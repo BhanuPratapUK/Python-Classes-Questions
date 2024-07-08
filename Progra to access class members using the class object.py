@@ -3,5 +3,5 @@ class ABC():
     def show(self):
         print("Hey how are you I am inside of this class Methods")
 display = ABC()
-print('MY value is this-->',display.var)
+print('The value of the var is-->',display.var)
 display.show()
