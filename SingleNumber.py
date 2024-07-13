@@ -1,23 +1,5 @@
 '''
-(3 Question )class number:
-    even = []
-    odd = []
-    def __init__(self,val):
-        self.val = val
-        if val%2==0:
-            number.even.append(val)
-        else:
-            number.odd.append(val)
-    # def display(self):
-    #     print('The list of the even numbers -->',number.even)
-    #     print('Ths list of the odd number is-->',number.odd)
 
-x = number(2)
-x1 = number(3)
-x2 = number(4)
-x3 = number(5)
-print('The list of the even numbers -->',number.even)
-print('Ths list of the odd number is-->',number.odd)
 
 # we can use both methods to access the list of even and odd numbers
 
