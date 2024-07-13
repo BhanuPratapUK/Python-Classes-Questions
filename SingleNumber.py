@@ -1,19 +1,4 @@
 '''
-(2 question for tommorrow)class number:
-    even = 0
-    def cross_check(self,val):
-        if val%2==0:
-            self.even=1
-    def even_odd(self,val):
-        self.cross_check(val)
-        if self.even==1:
-            print('This Number  is even ')
-        else:
-            print('This is Number is ODD')
-x =number()
-x.even_odd(21)
-
-
 (3 Question )class number:
     even = []
     odd = []
