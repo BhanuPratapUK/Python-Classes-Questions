@@ -22,17 +22,7 @@ del x
 print(y.num)
 print(z.num)
 
-(7 question)class msg:
-    def __init__(self,var1,var2):
-        self.var1 = var1
-        self.__var2= var2
-    def display(self):
-        print('The vlaue of the first number is -->',self.var1)
-        print('The vlaue of the second number is -->',self.__var2)
-x = msg(10,20)
-x.display()
-print('The vlaue of the first number is -->',x.var1)
-print('The vlaue of the private method outside of the class is -->',x._msg__var2)
+
 (8 questuon)class adding:
     def __init__(self,var):
         self.var = var
