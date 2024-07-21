@@ -23,16 +23,7 @@ print(y.num)
 print(z.num)
 
 
-(8 questuon)class adding:
-    def __init__(self,var):
-        self.var = var
-    def display(self):
-        print('Here is the value is after adding --->',self.var)
-    def add(self):
-        self.var+=2
-        self.display()
-x = adding(13)
-x.add()
+
 
 (9 questions)def scale(x):
     return x*10
