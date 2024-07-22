@@ -25,11 +25,12 @@ class Student(Person):
         Person.display(self)
         print('The Subject iahv chossen-->',self.subject)
         print('The roll no i got in the class-->',self.roll_no)
-A = Person('Bhanu Pratap',30)
+A = Person('Bhanu Pratap',27)
 A.display()
 B= Teacher('Akash',30,'Management','B.Tech',)
 B.displayT()
 C= Student('Bhanu Pratap Sharan',28,'PCM',244,)
 C.displayS()
+print(Student.__base__)
 
 
