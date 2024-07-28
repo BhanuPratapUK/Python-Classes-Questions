@@ -39,6 +39,6 @@ x.new2= 20
 print(x.new2)
 del x.new1
 print(x.new2)
-print(x.new1)
+print(x.new1)'''
 
 
